@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Happy Birthday 🎂</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Floating hearts background (shared sa dalawang page) -->
+<div class="hearts" id="hearts"></div>
+
+<!-- ============ PAGE 1: CAKE ============ -->
+<section class="page page-cake" id="pageCake">
+  <div class="cake-scene">
+
+    <div class="cake">
+      <div class="candle">
+        <div class="flame"></div>
+        <div class="wick"></div>
+      </div>
+      <div class="layer layer-top"></div>
+      <div class="drip drip1"></div>
+      <div class="drip drip2"></div>
+      <div class="drip drip3"></div>
+      <div class="layer layer-mid"></div>
+      <div class="layer layer-base"></div>
+      <div class="plate"></div>
+    </div>
+
+    <h1 class="title">Happy Birthday!</h1>
+
+    <button class="celebrate-btn" id="celebrateBtn">Celebrate 🎉</button>
+  </div>
+
+  <canvas id="confettiCanvas"></canvas>
+</section>
+
+<!-- ============ PAGE 2: LETTER ============ -->
+<section class="page page-letter" id="pageLetter">
+
+  <button class="back-btn" id="backBtn">← Back</button>
+
+  <div class="envelope-scene" id="envelopeScene">
+    <div class="envelope" id="envelope">
+      <div class="envelope-back"></div>
+      <div class="letter" id="letterPaper">
+        <div id="letterText"></div>
+      </div>
+      <div class="envelope-flap"></div>
+      <div class="envelope-front-left"></div>
+      <div class="envelope-front-right"></div>
+      <div class="seal">💌</div>
+    </div>
+    <p class="hint" id="envelopeHint">Pindutin ang sobre</p>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
